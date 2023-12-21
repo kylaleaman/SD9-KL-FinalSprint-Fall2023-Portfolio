@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="header">
+        <header>
+            <h2>Kyla Leaman</h2>
+        </header>
+        <nav>
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="projects.html">projects</a>
+            <a href="images.html">images</a>
+        </nav>
+    </div>
+
+    <div class="page-description">
+        <p>
+            Now we get to the good stuff!! Time to get to know a little about me!
+            Click on each photo to reveal a fact about me! &hearts;
+        </p>
+    </div>
+
+    <div class="imageContainer" onclick="switchImage('disneyContainer')">
+        <img id="disneyImage" class="myImage" src="images/me2.jpg" alt="Disney">
+        <div id="disneyContainer" class="factContainer hidden">
+            <div id="disneyFact" class="myFacts">
+                I LOVE DISNEY!! I have been to Disney World over 10 times and plan to get to every Disney park in the world!
+            </div>
+        </div>
+    </div>
+    
+    <div class="imageContainer" onclick="switchImage('leafsContainer')">
+        <img id="leafsImage" class="myImage" src="images/leafs.jpg" alt="Leafs">
+        <div id="leafsContainer" class="factContainer hidden">
+            <div id="leafsFact" class="myFacts">
+                GO LEAFS GO!!! I come from a long line of Leafs fans! You will find me watching the game every Saturday night!!
+            </div>
+        </div>
+    </div>
+
+    <div class="imageContainer" onclick="switchImage('harleeContainer')">
+        <img id="harleeImage" class="myImage" src="images/harlee.jpg" alt="Harlee">
+        <div id="harleeContainer" class="factContainer hidden">
+            <div id="harleeFacts" class="myFacts">
+                I have an obsession with my 5 year old golden retriever named Harlee!! She is my soul dog &hearts;
+            </div>
+        </div>
+    </div>
+    
+    <div class="imageContainer" onclick="switchImage('friendsContainer')">
+        <img id="friendsImage" class="myImage" src="images/friends.jpg" alt="Friends">
+        <div id="friendsContainer" class="factContainer hidden">
+            <div id="friendsFact" class="myFacts">
+                Nothing makes me laugh more than FRIENDS! I have watched it too many times and got to go to the FRIENDS Experience last winter!
+            </div>
+        </div>
+    </div>
+
+    <div class="imageContainer" onclick="switchImage('gilmoreContainer')">
+        <img id="gilmoreImage" class="myImage" src="images/gilmoregirls.jpg" alt="Gilmore Girls">
+        <div id="gilmoreContainer" class="factContainer hidden">
+            <div id="gilmoreFacts" class="myFacts">
+                Gilmore Girls is my all time favorite show! I have a Gilmore Girls tattoo on my arm and I have watched it over 100 times!! Life's short, talk fast &hearts;
+            </div>
+        </div>
+    </div>
+    
+    <div class="imageContainer" onclick="switchImage('booksContainer')">
+        <img id="bookImage" class="myImage" src="images/book.jpg" alt="Books">
+        <div id="booksContainer" class="factContainer hidden">
+            <div id="bookFacts" class="myFacts">
+                If you can't find me, it's because I am curled up with a book completely shut off. Books are my escape!
+            </div>
+        </div>
+    </div>
+
+    
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
